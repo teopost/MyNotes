@@ -1,5 +1,5 @@
-Creare pivot con Libreoffice
-============================
+Creare pivot con Libreoffice su Mac
+===================================
 
 1. Installare il driver JDBC di Microsoft
 -----------------------------------------
