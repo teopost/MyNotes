@@ -23,8 +23,8 @@ Mettere il file jar nella cartella /Library/Java/Extensions
 In libreoffice non si possono salvare le connessioni db dentro un foglio di calcolo.
 Occorre salvarle in un file di Base esterno
 
-* CLiccare File/Nuovo/Database
-* Seelezionare driver JDBC
+* Cliccare File/Nuovo/Database
+* Selezionare driver JDBC
 * Mettere i seguenti parametri:
 
     url string connection: sqlserver://cork:1433;databasename=CRM;user=sa;password=***
