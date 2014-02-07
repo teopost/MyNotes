@@ -3,13 +3,13 @@ Creare pivot con Libreoffice
 
 1. Installare il driver JDBC di Microsoft
 -----------------------------------------
-Scaricarlo dall'indirizzo: 
+Il driver jtds con LibreOffice non funziona
 
-http://www.microsoft.com/it-it/download/details.aspx?id=11774
+Scaricare quello Microsoft dal seguente indirizzo: 
 
-Nota: il driver jtds con LibreOffice non funziona
+    http://www.microsoft.com/it-it/download/details.aspx?id=11774
 
-* Mettere il file jar nella cartella /Library/Java/Extensions
+Mettere il file jar nella cartella /Library/Java/Extensions
 
 2. Configurare LibreOffice
 ---------------------------
@@ -21,22 +21,27 @@ Nota: il driver jtds con LibreOffice non funziona
 3. Creare un nuovo database
 ---------------------------
 In libreoffice non si possono salvare le connessioni db dentro un foglio di calcolo.
-Occorre salvarle in un file di Base.
+Occorre salvarle in un file di Base esterno
 
+* CLiccare File/Nuovo/Database
+* Seelezionare driver JDBC
+* Mettere i seguenti parametri:
 
-url string connection:
-sqlserver://cork:1433;databasename=CRM;user=sa;password=apice
+    url string connection: sqlserver://cork:1433;databasename=CRM;user=sa;password=***
+    Driver name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
-Driver name:
-com.microsoft.sqlserver.jdbc.SQLServerDriver
+4. Creare una Ricerca sui dati
+==============================
+Per mostrare i dati nella pivot bisogna esporli da base con una query
+Questo per evitare un errore *sql sintax*
+* In Base creare nuova ricerca
+* Selezionare la tabella interessata o farlo attraverso una query
 
-
-
-* Enable Guest User in System Preferences > Users & Groups
-* Open Terminal
-
-```bash
-sudo bash
-cd /System/Library/User\ Template
-cp -a English.lproj English.lproj.orig
-```
+5. Creare la tabella pivot
+==========================
+* Aprire LibreOffice
+* Andare in Dati
+* Scegliere Crea pivot
+* Scegliere il database salvato il precedenza
+* Scegliere il tipo ricerca
+* Scegliere la ricerca salvata in Base
