@@ -1,7 +1,8 @@
 Installare mkvextract
 ---
 
-- Note:
+# Riferimenti
+
 - http://www.setupswarm.com/main/media/ubuntu-dts-to-ac3
 - https://github.com/JakeWharton/mkvdts2ac3
 
