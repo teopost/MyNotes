@@ -62,4 +62,5 @@ This handout will walk you through how to make a backup copy of your SD card or 
 
 Thanks
 ---
-http://minordiscoveries.wordpress.com/2013/03/30/backing-up-raspberry-pi-sd-card-on-mac-os-x/
+* http://minordiscoveries.wordpress.com/2013/03/30/backing-up-raspberry-pi-sd-card-on-mac-os-x/
+* https://wikis.utexas.edu/display/comm/Mac+OS+-+Make+a+Backup+Copy+of+Your+SD+Card
