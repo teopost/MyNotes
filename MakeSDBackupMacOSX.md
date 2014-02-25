@@ -35,3 +35,7 @@ Restore from a compressed backup as follows:
 ``` sh
   gzip -dc /path/to/backup.gz | sudo dd of=/dev/rdisk1 bs=1m
 ```
+
+Thanks
+---
+http://minordiscoveries.wordpress.com/2013/03/30/backing-up-raspberry-pi-sd-card-on-mac-os-x/
