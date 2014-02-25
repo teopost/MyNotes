@@ -26,18 +26,19 @@ You must save them in a file outside of Base
 * Click File/Nuovo/Database
 * Select driver JDBC
 * Put this parameters:
-
-    url string connection: sqlserver://cork:1433;databasename=CRM;user=sa;password=***
-    Driver name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+```
+url string connection: sqlserver://cork:1433;databasename=CRM;user=sa;password=***
+Driver name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+```
 
 4. Create query
-===============
+---------------
 To view the data in the pivot must expose them to the Base with a query (this is to avoid *sql syntax error*)
 * Create a new query on Base
 * Select the query
 
 5. Create pivot table
-=====================
+---------------------
 * Open LibreOffice
 * Go to *Dati*
 * Select *Crea pivot*
