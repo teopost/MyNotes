@@ -1,47 +1,46 @@
-Creare pivot con Libreoffice su Mac
+Create PivotTable with Libreoffice on Mac
 ===================================
 
-1. Installare il driver JDBC di Microsoft
+1. Install the JDBC driver from Microsoft
 -----------------------------------------
-Il driver jtds con LibreOffice non funziona
+The driver jtds with LibreOffice does not work
 
-Scaricare quello Microsoft dal seguente indirizzo: 
+Download to Microsoft at the following address :
 
     http://www.microsoft.com/it-it/download/details.aspx?id=11774
 
-Mettere il file jar nella cartella /Library/Java/Extensions
+Put the jar file in the folder /Library/Java/Extensions
 
-2. Configurare LibreOffice
----------------------------
-* Aprire LibreOffice andare nelle *Preferenze/LibreOffice/Avanzato*.
-* Cliccare *Percorso classe*
-* Cliccare *Aggiungi archivio* e selezionare il file jar del driver
-* Riavviare LibreOffice
+2. Configure LibreOffice
+------------------------
+* Open LibreOffice, go into *Preferenze/LibreOffice/Avanzato*.
+* Click on *Percorso classe*
+* Click on *Aggiungi archivio* and select the jar file of the driver
+* Restart LibreOffice
 
-3. Creare un nuovo database
----------------------------
-In libreoffice non si possono salvare le connessioni db dentro un foglio di calcolo.
-Occorre salvarle in un file di Base esterno
+3. Create a new database
+------------------------
+In libreoffice can not save db connections in a spreadsheet.
+You must save them in a file outside of Base
 
-* Cliccare File/Nuovo/Database
-* Selezionare driver JDBC
-* Mettere i seguenti parametri:
+* Click File/Nuovo/Database
+* Select driver JDBC
+* Put this parameters:
 
     url string connection: sqlserver://cork:1433;databasename=CRM;user=sa;password=***
     Driver name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
-4. Creare una Ricerca sui dati
-==============================
-Per mostrare i dati nella pivot bisogna esporli da base con una query
-Questo per evitare un errore *sql sintax*
-* In Base creare nuova ricerca
-* Selezionare la tabella interessata o farlo attraverso una query
+4. Create query
+===============
+To view the data in the pivot must expose them to the Base with a query (this is to avoid *sql syntax error*)
+* Create a new query on Base
+* Select the query
 
-5. Creare la tabella pivot
-==========================
-* Aprire LibreOffice
-* Andare in Dati
-* Scegliere Crea pivot
-* Scegliere il database salvato il precedenza
-* Scegliere il tipo ricerca
-* Scegliere la ricerca salvata in Base
+5. Create pivot table
+=====================
+* Open LibreOffice
+* Go to *Dati*
+* Select *Crea pivot*
+* Select the database
+* Select query type
+* Select query stored in Base file
