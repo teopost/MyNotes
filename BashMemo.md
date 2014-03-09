@@ -26,8 +26,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@teopost.com
 Differential copy through ssh tunnel
 --- 
 
-Copy all local files (subfolder included) to remote server
-Thank to http://www.linuxawy.org/node/12
+Copy all local files (subfolder included) to remote server. Thanks to http://www.linuxawy.org/node/12
 ``` bash
 rsync -avz -e ssh . root@teopost.com:/var/www/apex 
 ```
