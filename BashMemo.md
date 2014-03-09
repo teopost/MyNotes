@@ -26,7 +26,8 @@ Generate and copy SSH key
 
 You should install ssh-copy-id with brew (brew install ssh-copy-id)
 ``` bash
+install ssh-copy-id
 ssh-keygen -t rsa
-ssh-copy-id -i ~/.ssh/id_rsa.pub root@teopost.mooo.com
+ssh-copy-id -i ~/.ssh/id_rsa.pub root@teopost.com
 
 ```
