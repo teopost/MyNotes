@@ -27,6 +27,7 @@ Differential copy through ssh tunnel
 --- 
 
 Copy all local files (subfolder included) to remote server
+Thank to http://www.linuxawy.org/node/12
 ``` bash
 rsync -avz -e ssh . root@teopost.com:/var/www/apex 
 ```
