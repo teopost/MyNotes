@@ -18,5 +18,4 @@ Differential copy through ssh tunnel
 
 ```
 rsync -avz -e ssh . root@teopost.com:/var/www/apex 
-
 ```
