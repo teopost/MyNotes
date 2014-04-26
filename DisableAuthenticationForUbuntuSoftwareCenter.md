@@ -27,4 +27,4 @@ Now go to the Ubuntu Software Center and find something you wish to install, did
 
 Thanks
 ---
-* (http://yesanotherubuntublog.blogspot.it/2011/07/how-to-disable-authentication-for.html)
+* http://yesanotherubuntublog.blogspot.it/2011/07/how-to-disable-authentication-for.html
