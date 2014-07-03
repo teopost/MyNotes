@@ -35,11 +35,15 @@ Add date and time to bash history
 ---
 If the HISTTIMEFORMAT is set, the time stamp information associated with each history entry is written to the history file, marked with the history comment character. Defining the environment variable as follows:
 
-    $ HISTTIMEFORMAT="%d/%m/%y %T "
-    
+``` bash
+$ HISTTIMEFORMAT="%d/%m/%y %T "
+```
+
 or 
 
+``` bash
     $ echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile
+```
 
 Where:
 
