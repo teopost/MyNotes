@@ -30,3 +30,44 @@ Copy all local files (subfolder included) to remote server. Thanks to http://www
 ``` bash
 rsync -avzr -e ssh * root@teopost.com:/var/www/apex 
 ```
+
+Add date and time to bash history
+---
+If the HISTTIMEFORMAT is set, the time stamp information associated with each history entry is written to the history file, marked with the history comment character. Defining the environment variable as follows:
+
+    $ HISTTIMEFORMAT="%d/%m/%y %T "
+    
+or 
+
+    $ echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile
+
+Where:
+
+    %d - Day
+    %m - Month
+    %y - Year
+    %T - Time
+
+Sample output
+
+    ....
+    ..
+      986  11/03/10 04:31:36 memcached-tool  10.10.28.22:11211 stats
+      987  11/03/10 04:31:36 w
+      988  11/03/10 04:31:37 iostat
+      989  11/03/10 04:31:37 top
+      990  11/03/10 04:31:37 at
+      991  11/03/10 04:31:38 atop
+      992  11/03/10 04:31:40 collectl
+      993  11/03/10 04:31:41 grep CPU /proc/cpuinfo
+      994  11/03/10 04:31:45 vmstat 3 100
+      995  11/03/10 04:31:55 sar -W -f /var/log/sa/sa12
+    ....
+    ..
+
+This is my setting
+
+``` bash
+export HISTSIZE=100000
+export HISTTIMEFORMAT="%d/%m/%y %T "
+ ```
