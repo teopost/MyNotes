@@ -42,7 +42,7 @@ $ HISTTIMEFORMAT="%d/%m/%y %T "
 or 
 
 ``` bash
-    $ echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile
+$ echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile
 ```
 
 Where:
