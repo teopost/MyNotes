@@ -1,4 +1,4 @@
-How automate ubuntu software throughout many hosts
+Automate ubuntu software update
 ===
 Quick and simple system to automate updates throughout all of my systems.
 Note: sudo will be installed
