@@ -54,6 +54,6 @@ do
 done;
 ```
 
-Thanks to:
+Thanks
 ---
 http://www.linuxjournal.com/magazine/hack-and-manage-multiple-servers-efficiently
