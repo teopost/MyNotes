@@ -16,12 +16,6 @@ Now paste this code
 apt-get update && apt-get -u -y upgrade
 ```
 
-set permissions
-
-``` bash
-chmod 777 /usr/local/bin/apt-automate
-```
-
 2. Setting sudo permission
 ---
 Edit your /etc/sudoers file using the "visudo" command and add the following line:
