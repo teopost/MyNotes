@@ -1,9 +1,11 @@
-VNC Connection
-===
-
-
-Some links
+Markdon preview on finder
 ---
+https://github.com/toland/qlmarkdown
+
+
+VNC Connection
+---
+
 http://erriko.it/sistemi-operativi/mac/scopri-il-client-vnc-gratuito-integrato-in-ogni-mac/
 http://rbgeek.wordpress.com/2012/06/25/how-to-install-vnc-server-on-ubuntu-server-12-04/
 https://www.cs.virginia.edu/~csadmin/wiki/index.php/Connecting_to_a_Linux_machine_with_VNC
