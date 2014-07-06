@@ -32,8 +32,13 @@ Now, execute this:
 apt-get automate
 ```
 
-4. Update from all machines
+4. Copy ssh public key to remote hosts
 ---
+Read this ()[ssh-login-without-password]
+
+5. Update from all machines
+---
+
 
 From your computer now you can execute this script.
 It execute a ssh command for each host configured into hosts variable
