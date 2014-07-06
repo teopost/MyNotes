@@ -1,6 +1,9 @@
 Using mkvextract
 ===
 
+Installing mkvextract
+---
+
 ``` sh
 sudo apt-get install -y mkvtoolnix mkvtoolnix-gui
 sudo apt-get install -y libdca-utils aften
@@ -9,15 +12,18 @@ chmod 777 mkvdts2ac3.sh && sudo mv mkvdts2ac3.sh /usr/bin/
 
 ```
 
-Examples:
+Some examples
+---
 
 Creare la traccia AC3 nuova ed eliminare la DTS: 
-``` sh
-mkvdts2ac3.sh -n Some.Random.Movie.mkv
-```
 
-http://www.bunkus.org/videotools/mkvtoolnix/doc/mkvpropedit.html
-http://linux.die.net/man/1/mkvextract
+    mkvdts2ac3.sh -n Some.Random.Movie.mkv
+
+
+    Note: 
+    http://www.bunkus.org/videotools/mkvtoolnix/doc/mkvpropedit.html
+    http://linux.die.net/man/1/mkvextract
+
 
 Cambiare il flag default dalla prima alla seconda traccia
 
