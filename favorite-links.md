@@ -1,4 +1,4 @@
-Markdon preview on finder
+Markdown preview on finder
 ---
 https://github.com/toland/qlmarkdown
 
