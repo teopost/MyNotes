@@ -34,7 +34,7 @@ apt-get automate
 
 4. Copy ssh public key to remote hosts
 ---
-Read this (ssh-login-without-password)
+Read this (note)[ssh-login-without-password.md]
 
 
 5. Update from all machines
