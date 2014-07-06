@@ -1,3 +1,7 @@
+Dual boot time setting (ubuntu and windows)
+--
+        https://help.ubuntu.com/community/UbuntuTime
+
 Find in files
 ---
 
