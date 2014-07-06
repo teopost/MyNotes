@@ -11,8 +11,9 @@ chmod 777 mkvdts2ac3.sh && sudo mv mkvdts2ac3.sh /usr/bin/
 
 Examples:
 
+Creare la traccia AC3 nuova ed eliminare la DTS: 
 ``` sh
-Creare la traccia AC3 nuova ed eliminare la DTS: mkvdts2ac3.sh -n Some.Random.Movie.mkv
+mkvdts2ac3.sh -n Some.Random.Movie.mkv
 ```
 
 http://www.bunkus.org/videotools/mkvtoolnix/doc/mkvpropedit.html
