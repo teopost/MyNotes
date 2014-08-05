@@ -156,6 +156,8 @@ Reference
 * http://remotebox.knobgoblin.org.uk/downloads.cgi
 * http://www.linuxuser.co.uk/tutorials/build-a-headless-virtualisation-server/2
 * http://wiki.ubuntu-it.org/Virtualizzazione/VirtualBox/AccessoRemoto
+* http://nakkaya.com/2012/08/30/create-manage-virtualBox-vms-from-the-command-line/
+* http://www.perkin.org.uk/posts/create-virtualbox-vm-from-the-command-line.html
 
 
 
