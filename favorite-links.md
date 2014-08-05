@@ -15,3 +15,7 @@ http://scriptogr.am/joshearl/post/hosting-an-aspnet-site-in-iis-express-using-pa
 Connect to MSSQL from Mac
 ---
 http://blog.nguyenvq.com/blog/2010/04/15/accessing-ms-sql-server-from-command-line-in-mac-os-x-and-linuxunix/
+
+Linux
+---
+* http://www.leonardoborda.com/blog/how-to-add-a-new-partition-to-the-fstab-file/
