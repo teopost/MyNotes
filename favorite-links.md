@@ -19,3 +19,4 @@ http://blog.nguyenvq.com/blog/2010/04/15/accessing-ms-sql-server-from-command-li
 Linux
 ---
 * http://www.leonardoborda.com/blog/how-to-add-a-new-partition-to-the-fstab-file/
+* http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
