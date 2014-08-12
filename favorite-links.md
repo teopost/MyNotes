@@ -21,3 +21,7 @@ Linux
 * http://www.leonardoborda.com/blog/how-to-add-a-new-partition-to-the-fstab-file/
 * http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
 * http://www.psychocats.net/ubuntu/fixsudo
+
+Docker
+---
+* http://blog.grid-it.nl/index.php/2014/05/16/installing-oracle-xe-in-a-docker-image/
