@@ -28,3 +28,8 @@ Docker
 * http://crosbymichael.com/advanced-docker-volumes.html
 * http://blog.thoward37.me/articles/where-are-docker-images-stored/
 * http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera
+```
+sudo useradd -m -d /home/docker -s /bin/bash -g docker docker
+passwd docker
+usermod -a -G sudo docker
+```
