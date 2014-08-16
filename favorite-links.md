@@ -30,6 +30,7 @@ Docker
 ---
 * http://blog.grid-it.nl/index.php/2014/05/16/installing-oracle-xe-in-a-docker-image/
 * http://crosbymichael.com/advanced-docker-volumes.html
+* http://michael.stapelberg.de/Artikel/coreos_and_docker_first_steps
 * http://blog.thoward37.me/articles/where-are-docker-images-stored/
 * https://www.digitalocean.com/community/tutorials/how-to-dockerise-and-deploy-multiple-wordpress-applications-on-ubuntu
 ```
