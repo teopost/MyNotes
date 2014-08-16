@@ -19,15 +19,19 @@ http://blog.nguyenvq.com/blog/2010/04/15/accessing-ms-sql-server-from-command-li
 Linux
 ---
 * http://www.leonardoborda.com/blog/how-to-add-a-new-partition-to-the-fstab-file/
-* http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
 * http://www.psychocats.net/ubuntu/fixsudo
 
+Raspberry
+---
+* http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera
+* http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
+ 
 Docker
 ---
 * http://blog.grid-it.nl/index.php/2014/05/16/installing-oracle-xe-in-a-docker-image/
 * http://crosbymichael.com/advanced-docker-volumes.html
 * http://blog.thoward37.me/articles/where-are-docker-images-stored/
-* http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera
+* https://www.digitalocean.com/community/tutorials/how-to-dockerise-and-deploy-multiple-wordpress-applications-on-ubuntu
 ```
 sudo useradd -m -d /home/docker -s /bin/bash -g docker docker
 passwd docker
