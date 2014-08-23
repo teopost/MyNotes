@@ -38,3 +38,7 @@ sudo useradd -m -d /home/docker -s /bin/bash -g docker docker
 passwd docker
 usermod -a -G sudo docker
 ```
+
+Others
+---
+https://www.facebook.com/Trickonics/posts/294083367380343
