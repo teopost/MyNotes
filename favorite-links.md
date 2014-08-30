@@ -39,6 +39,13 @@ passwd docker
 usermod -a -G sudo docker
 ```
 
+Flask
+---
+* http://www.shea.io/facebook-authentication-for-flask-apps/
+* http://peterhudec.github.io/authomatic/
+* https://pythonhosted.org/Flask-OAuth/
+* 
+
 Others
 ---
 https://www.facebook.com/Trickonics/posts/294083367380343
