@@ -44,7 +44,7 @@ Flask
 * http://www.shea.io/facebook-authentication-for-flask-apps/
 * http://peterhudec.github.io/authomatic/
 * https://pythonhosted.org/Flask-OAuth/
-* 
+* http://authomatic-example.appspot.com/
 
 Others
 ---
