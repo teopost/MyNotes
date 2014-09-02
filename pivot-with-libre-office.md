@@ -1,4 +1,4 @@
-Create PivotTable with Libreoffice on Mac
+Create PivotTable with Libreoffice
 ===================================
 
 1. Install the JDBC driver from Microsoft
