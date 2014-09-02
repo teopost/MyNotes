@@ -9,7 +9,7 @@ Download to Microsoft at the following address :
 
     http://www.microsoft.com/it-it/download/details.aspx?id=11774
 
-Put the jar file in the folder /Library/Java/Extensions
+Put the jar file in the folder /Library/Java/Extensions (on Mac)
 
 2. Configure LibreOffice
 ------------------------
