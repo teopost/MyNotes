@@ -35,6 +35,7 @@ Docker
 * http://blog.thoward37.me/articles/where-are-docker-images-stored/
 * https://www.digitalocean.com/community/tutorials/how-to-dockerise-and-deploy-multiple-wordpress-applications-on-ubuntu
 * https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/
+* http://dischord.org/blog/2013/07/10/docker-and-owncloud/
 ```
 sudo useradd -m -d /home/docker -s /bin/bash -g docker docker
 passwd docker
