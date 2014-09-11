@@ -26,6 +26,7 @@ Raspberry
 * http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera
 * http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
 * http://www.engeene.it/la-porta-gpio-della-raspberry-pi-1/
+* https://learn.adafruit.com/webide/installation
  
 Docker
 ---
