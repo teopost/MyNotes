@@ -40,6 +40,7 @@ Docker
 * http://dischord.org/blog/2013/07/10/docker-and-owncloud/
 * http://www.jamescoyle.net/how-to/1512-export-and-import-a-docker-image-between-nodes
 * http://tuhrig.de/difference-between-save-and-export-in-docker/
+* http://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-via-repository
 
 ```
 sudo useradd -m -d /home/docker -s /bin/bash -g docker docker
