@@ -1,20 +1,20 @@
 Markdown preview on finder
 ---
-https://github.com/toland/qlmarkdown
+* https://github.com/toland/qlmarkdown
 
 
 VNC Connection
 ---
 
-http://erriko.it/sistemi-operativi/mac/scopri-il-client-vnc-gratuito-integrato-in-ogni-mac/
-http://rbgeek.wordpress.com/2012/06/25/how-to-install-vnc-server-on-ubuntu-server-12-04/
-https://www.cs.virginia.edu/~csadmin/wiki/index.php/Connecting_to_a_Linux_machine_with_VNC
-http://blogs.bu.edu/mhirsch/2013/10/vncserver-setup-on-ubuntu-12-04/
-http://scriptogr.am/joshearl/post/hosting-an-aspnet-site-in-iis-express-using-parallels-on-mac-osx
+* http://erriko.it/sistemi-operativi/mac/scopri-il-client-vnc-gratuito-integrato-in-ogni-mac/
+* http://rbgeek.wordpress.com/2012/06/25/how-to-install-vnc-server-on-ubuntu-server-12-04/
+* https://www.cs.virginia.edu/~csadmin/wiki/index.php/Connecting_to_a_Linux_machine_with_VNC
+* http://blogs.bu.edu/mhirsch/2013/10/vncserver-setup-on-ubuntu-12-04/
+* http://scriptogr.am/joshearl/post/hosting-an-aspnet-site-in-iis-express-using-parallels-on-mac-osx
 
 Connect to MSSQL from Mac
 ---
-http://blog.nguyenvq.com/blog/2010/04/15/accessing-ms-sql-server-from-command-line-in-mac-os-x-and-linuxunix/
+* http://blog.nguyenvq.com/blog/2010/04/15/accessing-ms-sql-server-from-command-line-in-mac-os-x-and-linuxunix/
 
 Linux
 ---
@@ -57,4 +57,4 @@ Flask
 
 Others
 ---
-https://www.facebook.com/Trickonics/posts/294083367380343
+* https://www.facebook.com/Trickonics/posts/294083367380343
