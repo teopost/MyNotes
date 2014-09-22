@@ -30,7 +30,6 @@ Raspberry
  
 Docker
 ---
-* http://blog.grid-it.nl/index.php/2014/05/16/installing-oracle-xe-in-a-docker-image/
 * http://crosbymichael.com/advanced-docker-volumes.html
 * http://crosbymichael.com/dockerfile-best-practices.html
 * http://michael.stapelberg.de/Artikel/coreos_and_docker_first_steps
@@ -42,6 +41,12 @@ Docker
 * http://tuhrig.de/difference-between-save-and-export-in-docker/
 * http://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-via-repository
 * https://github.com/paimpozhil/docker-volume-backup
+* 
+
+Docker containers
+---
+* http://blog.grid-it.nl/index.php/2014/05/16/installing-oracle-xe-in-a-docker-image/
+* http://www.damagehead.com/docker-gitlab/
 
 ```
 sudo useradd -m -d /home/docker -s /bin/bash -g docker docker
