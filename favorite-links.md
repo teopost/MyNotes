@@ -47,6 +47,7 @@ Docker containers
 ---
 * http://blog.grid-it.nl/index.php/2014/05/16/installing-oracle-xe-in-a-docker-image/
 * http://www.damagehead.com/docker-gitlab/
+* https://github.com/wmarinho/docker-pentaho
 
 ```
 sudo useradd -m -d /home/docker -s /bin/bash -g docker docker
