@@ -65,3 +65,4 @@ Flask
 Others
 ---
 * https://www.facebook.com/Trickonics/posts/294083367380343
+* http://scotch.io/tutorials/how-to-setup-gitlab-a-self-hosted-github
