@@ -42,7 +42,7 @@ Docker
 * http://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-via-repository
 * https://github.com/paimpozhil/docker-volume-backup
 * https://github.com/wsargent/docker-cheat-sheet
-* 
+* http://kencochrane.net/blog/2013/08/the-docker-guidebook/
 
 Docker containers
 ---
