@@ -43,6 +43,7 @@ Docker
 * https://github.com/paimpozhil/docker-volume-backup
 * https://github.com/wsargent/docker-cheat-sheet
 * http://kencochrane.net/blog/2013/08/the-docker-guidebook/
+* http://www.extraordy.com/docker-build-automatizzati-con-dockerfile-e-fig/
 
 Docker containers
 ---
