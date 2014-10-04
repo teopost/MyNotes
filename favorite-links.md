@@ -27,7 +27,14 @@ Raspberry
 * http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
 * http://www.engeene.it/la-porta-gpio-della-raspberry-pi-1/
 * https://learn.adafruit.com/webide/installation
- 
+
+Vagrant
+---
+* vagrantup.com
+* https://vagrantcloud.com/boxes
+* packer.io
+* https://github.com/jedi4ever/veewee
+
 Docker
 ---
 * http://crosbymichael.com/advanced-docker-volumes.html
