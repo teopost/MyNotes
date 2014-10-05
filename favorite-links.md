@@ -72,6 +72,12 @@ Flask
 * https://pythonhosted.org/Flask-OAuth/
 * http://authomatic-example.appspot.com/
 
+Wordpress
+---
+* http://www.howtoforge.com/ubuntu-lamp-server-with-apache2-php5-mysql-on-14.04-lts
+* http://www.howtoforge.com/how-to-install-wordpress-on-ubuntu-14.04-lamp
+* https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-14-04
+
 Others
 ---
 * https://www.facebook.com/Trickonics/posts/294083367380343
