@@ -4,33 +4,46 @@ Visit www.getsentry.com
 
 Create Debian 7.1 64 bit VM
 
-    # SSH Connections
+    # Connect to host with SSH
     sh [host] -l root
 
 
+    # Install sudo (only for debian)
+    apt-get install sudo
+    
+    
     # add non-root user
     adduser sentry
 
-# add to sudoers
-adduser sentry sudo
 
-# log out of root and log in as sentry
-exit
+    # add to sudoers
+    adduser sentry sudo
 
-# update the local package index
-sudo apt-get update
 
-# actually upgrade all packages that can be upgraded
-sudo apt-get dist-upgrade
+    # log as sentry
+    su - sentry
 
-# remove any packages that are no longer needed
-sudo apt-get autoremove
 
-# reboot the machine, which is only necessary for some updates
-sudo reboot
+    # update the local package index
+    sudo apt-get update
 
-# install python-dev
-sudo apt-get install build-essential python-dev
+
+    # actually upgrade all packages that can be upgraded
+    sudo apt-get dist-upgrade
+
+    # remove any packages that are no longer needed
+    sudo apt-get autoremove
+
+
+    # reboot the machine, which is only necessary for some updates
+    sudo reboot
+
+# Comment non-us
+vi /etc/apt/sources.list
+#deb http://non-us.debian....
+
+    # install python-dev
+    sudo apt-get install build-essential python-dev python-setuptools
 
 # download distribute
 curl -O http://python-distribute.org/distribute_setup.py
