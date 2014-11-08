@@ -175,6 +175,12 @@ vi /etc/apt/sources.list
     Perhaps someone more knowledgable can leave a comment and suggest the
     best way to start the service automatically on reboot.
 
+
+If somebody want to create an admin account using command line use the following command:
+
+    sentry --config=.sentry/sentry.conf.py createsuperuser
+    sentry --config=.sentry/sentry.conf.py repair --owner=<some_username>
+
 Update
 ---
 I set up supervisor as recommend in the comments and the docs to keep sentry runny (though it has never crashed, it does make restarting easier)
