@@ -1,13 +1,15 @@
-How install Sentry (www.getsentry.com)
+How install Sentry
 ===
+Visit www.getsentry.com
 
-Create Debian 7.1 64 bit 
+Create Debian 7.1 64 bit VM
 
-  # SSH Connections
-  s root
+    # SSH Connections
+    sh [host] -l root
 
-# add non-root user
-adduser sentry
+
+    # add non-root user
+    adduser sentry
 
 # add to sudoers
 adduser sentry sudo
