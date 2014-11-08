@@ -38,9 +38,9 @@ Create Debian 7.1 64 bit VM
     # reboot the machine, which is only necessary for some updates
     sudo reboot
 
-# Comment non-us
-vi /etc/apt/sources.list
-#deb http://non-us.debian....
+    # Comment non-us
+    vi /etc/apt/sources.list
+    #deb http://non-us.debian....
 
     # install python-dev (ask Y to Restart the services question)
     sudo apt-get install build-essential python-dev python-setuptools
