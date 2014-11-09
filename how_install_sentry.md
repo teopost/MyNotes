@@ -43,10 +43,10 @@ Create Debian 7.1 64 bit VM
     #deb http://non-us.debian....
 
     # install python-dev (ask Y to Restart the services question)
-    sudo apt-get install build-essential python-dev python-setuptools
+    sudo apt-get install -y build-essential python-dev python-setuptools
 
     # install distribute
-    easy_install distribute
+    sudo easy_install distribute
 
     # use distribute to install pip
     sudo easy_install pip
@@ -65,14 +65,14 @@ Create Debian 7.1 64 bit VM
     # make virtualenv
     mkvirtualenv sentry_env
 
-    # install sentry
+    # install sentry (easy_install sentry==dev)
     pip install sentry
 
     # create settings file (file will be located in ~/.sentry/sentry.conf.py)
     sentry init
 
     # install postgres
-    sudo apt-get install postgresql postgresql-contrib libpq-dev
+    sudo apt-get install -y postgresql postgresql-contrib libpq-dev
 
     # install postgres adminpack
     sudo -u postgres psql
@@ -119,8 +119,8 @@ Create Debian 7.1 64 bit VM
     # let's try it out! (browser and control-c to break)
     sentry start
 
-    # install nginx
-    sudo apt-get install nginx
+    # install nginx proxy
+    sudo apt-get install -y nginx
 
     # remove the default symbolic link
     sudo rm /etc/nginx/sites-enabled/default
@@ -178,6 +178,7 @@ Create Debian 7.1 64 bit VM
 
 If somebody want to create an admin account using command line use the following command:
 
+    cd
     sentry --config=.sentry/sentry.conf.py createsuperuser
     sentry --config=.sentry/sentry.conf.py repair --owner=<some_username>
 
@@ -185,7 +186,7 @@ Update
 ---
 I set up supervisor as recommend in the comments and the docs to keep sentry runny (though it has never crashed, it does make restarting easier)
 
-    sudo apt-get install supervisor
+    sudo apt-get install -y supervisor
     sudo vi /etc/supervisor/conf.d/sentry.conf
 
 Add the following to the sentry.conf file:
@@ -196,6 +197,7 @@ Add the following to the sentry.conf file:
     autostart=true
     autorestart=true
     redirect_stderr=true
+    user=sentry
     
     # Restart supervisord
 
