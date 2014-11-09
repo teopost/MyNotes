@@ -7,6 +7,10 @@ Create Debian 7.1 64 bit VM
     # Connect to host with SSH
     sh [host] -l root
 
+    # Disable broken repo (cloudatcost) 
+    sed -i 's/deb http:\/\/non-us/\#deb http:\/\/non-us/' /etc/apt/sources.list
+    sudo apt-get update
+
 
     # Install sudo (only for debian)
     apt-get install sudo
@@ -24,26 +28,16 @@ Create Debian 7.1 64 bit VM
     su - sentry
 
 
-    # update the local package index
-    sudo apt-get update
-
-
     # actually upgrade all packages that can be upgraded
-    sudo apt-get dist-upgrade
-
-    # remove any packages that are no longer needed
-    sudo apt-get autoremove
+    sudo apt-get -y dist-upgrade
 
 
     # reboot the machine, which is only necessary for some updates
     sudo reboot
 
-    # Comment non-us
-    vi /etc/apt/sources.list
-    #deb http://non-us.debian....
 
-    # install python-dev (ask Y to Restart the services question)
-    sudo apt-get install -y build-essential python-dev python-setuptools
+    # install python-dev (ask Y to Restart the services)
+    sudo apt-get install -y build-essential python-dev python-setuptools libxslt1-dev libxml2-dev
 
     # install distribute
     sudo easy_install distribute
@@ -65,11 +59,25 @@ Create Debian 7.1 64 bit VM
     # make virtualenv
     mkvirtualenv sentry_env
 
+
+
     # install sentry (easy_install sentry==dev)
-    pip install sentry
+    exit
+    su - sentry
+    sudo easy_install sentry==dev
 
     # create settings file (file will be located in ~/.sentry/sentry.conf.py)
     sentry init
+
+sudo apt-get install postgresql libpq-dev
+# start postgresql
+sudo /etc/init.d/postgresql start
+sudo su - postgres
+createuser --superuser
+psql
+\q
+exit
+createdb -E utf8 sentry
 
     # install postgres
     sudo apt-get install -y postgresql postgresql-contrib libpq-dev
@@ -106,6 +114,9 @@ Create Debian 7.1 64 bit VM
              }
          }
     }
+
+    # Change this
+    SENTRY_URL_PREFIX = 'http://mysentry.mooo.com' 
 
     You will also want to configure your SMTP mail account. I just used my gmail account.
 
