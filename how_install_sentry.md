@@ -9,38 +9,28 @@ Create Debian 7.1 64 bit VM
 
     # Disable broken repo (cloudatcost) 
     sed -i 's/deb http:\/\/non-us/\#deb http:\/\/non-us/' /etc/apt/sources.list
-    sudo apt-get update
-
+    apt-get update
 
     # Install sudo (only for debian)
     apt-get install sudo
     
-    
     # add non-root user
     adduser sentry
-
 
     # add to sudoers
     adduser sentry sudo
 
-
     # log as sentry
     su - sentry
-
 
     # actually upgrade all packages that can be upgraded
     sudo apt-get -y dist-upgrade
 
-
-    # reboot the machine, which is only necessary for some updates
-    sudo reboot
-
-
     # install python-dev (ask Y to Restart the services)
     sudo apt-get install -y build-essential python-dev python-setuptools libxslt1-dev libxml2-dev
 
-    # install distribute
-    sudo easy_install distribute
+# install distribute
+#sudo easy_install distribute
 
     # use distribute to install pip
     sudo easy_install pip
@@ -58,9 +48,7 @@ Create Debian 7.1 64 bit VM
 
     # make virtualenv
     mkvirtualenv sentry_env
-
-
-
+    
     # install sentry (easy_install sentry==dev)
     exit
     su - sentry
@@ -69,10 +57,11 @@ Create Debian 7.1 64 bit VM
     # create settings file (file will be located in ~/.sentry/sentry.conf.py)
     sentry init
 
-sudo apt-get install postgresql libpq-dev
+sudo apt-get install -y postgresql libpq-dev postgresql-contrib
 # start postgresql
 sudo /etc/init.d/postgresql start
 sudo su - postgres
+# Enter : sentry
 createuser --superuser
 psql
 \q
@@ -224,4 +213,8 @@ Upgrading Sentry
     
 Reference
 ---
-http://dustindavis.me/setting-up-your-own-sentry-server.html
+* http://dustindavis.me/setting-up-your-own-sentry-server.html
+* http://sdanielf.github.io/blog/2014/01/18/logging-with-sentry/
+* https://sentry.readthedocs.org/en/latest/quickstart/index.html
+
+
