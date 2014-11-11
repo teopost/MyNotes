@@ -27,7 +27,7 @@ Create Ubuntu image 12.04 64 bit
 
     # actually upgrade all packages that can be upgraded
     sudo apt-get -y dist-upgrade
-
+xxx
     # install python-dev (ask Y to Restart the services)
     sudo apt-get install -y build-essential python-dev python-setuptools libxslt1-dev libxml2-dev
 
@@ -93,11 +93,13 @@ Create Ubuntu image 12.04 64 bit
     SENTRY_URL_PREFIX = 'http://mysentry.mooo.com' 
 
     You will also want to configure your SMTP mail account. I just used my gmail account.
-
-    # going to need psycopg2
+    
+    # You are sentry user (no on virtual env)
+    sudo pip install psycopg2
+    
+    # Enter to virtual env
     workon sentry_env
-    pip install psycopg2
-qui
+
     # set up databse
     sentry upgrade
 
