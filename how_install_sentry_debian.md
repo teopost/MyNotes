@@ -101,10 +101,44 @@ Create Debian 7.1 64 bit VM
     # set up databse
     sentry upgrade
 
-    # let's try it out! (browser and control-c to break)
+    # let's try it out! (browser and control-c to break) Test if work
     sentry start
+     
+    # Install redis
+    sudo apt-get install -y redis-server
+    
+    
+Install supervisor
+---
 
-    # install nginx proxy
+    # Install supervisor
+    sudo apt-get install -y supervisor
+    
+    sudo -E bash -c 'cat << EOF > /etc/supervisor/conf.d/sentry.conf
+    [program:sentry-web]
+    user=sentry
+    directory=/home/sentry/
+    command=/usr/local/bin/sentry --config=/home/sentry/.sentry/sentry.conf.py start http
+    autostart=true
+    autorestart=true
+    redirect_stderr=true
+     
+    [program:sentry-worker]
+    user=sentry
+    directory=/home/sentry/
+    command=/usr/local/bin/sentry --config=/home/sentry/.sentry/sentry.conf.py celery worker -B
+    autostart=true
+    autorestart=true
+    redirect_stderr=true
+    EOF'
+    
+    # Restart services (supervisorctl)
+    sudo service redis-server restart
+    sudo service supervisor restart
+    
+Proxy
+---
+    # Install nginx proxy
     sudo apt-get install -y nginx
 
     # remove the default symbolic link
