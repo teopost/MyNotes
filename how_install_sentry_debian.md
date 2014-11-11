@@ -201,5 +201,6 @@ Reference
 * http://dustindavis.me/setting-up-your-own-sentry-server.html
 * http://sdanielf.github.io/blog/2014/01/18/logging-with-sentry/
 * https://sentry.readthedocs.org/en/latest/quickstart/index.html
+* http://www.snip2code.com/Snippet/74753/Basic-setup-script-for-installing-Sentry
 
 
