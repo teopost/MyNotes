@@ -2,18 +2,20 @@ How install Sentry
 ===
 Visit www.getsentry.com
 
-Create Debian 7.1 64 bit VM
+Create Ubuntu image 12.04 64 bit
 
     # Connect to host with SSH
     sh [host] -l root
 
-    # Disable broken repo (cloudatcost) 
-    sed -i 's/deb http:\/\/non-us/\#deb http:\/\/non-us/' /etc/apt/sources.list
+    # FIx DNX. To quickly add DNS servers to your server run this command.
+    echo "nameserver 8.8.8.8" >>/etc/resolv.conf
+    
+    #To ensure this doesn't happen again please add the following to the /etc/network/interfaces file
+    dns-nameservers 8.8.8.8 8.8.4.4
+
+    # Update repo index
     apt-get update
 
-    # Install sudo (only for debian)
-    apt-get install sudo
-    
     # add non-root user
     adduser sentry
 
@@ -25,12 +27,12 @@ Create Debian 7.1 64 bit VM
 
     # actually upgrade all packages that can be upgraded
     sudo apt-get -y dist-upgrade
-
+>>
     # install python-dev (ask Y to Restart the services)
     sudo apt-get install -y build-essential python-dev python-setuptools libxslt1-dev libxml2-dev
 
-# install distribute
-#sudo easy_install distribute
+    # install distribute
+    #sudo easy_install distribute
 
     # use distribute to install pip
     sudo easy_install pip
