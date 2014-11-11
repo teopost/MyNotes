@@ -27,7 +27,7 @@ Create Ubuntu image 12.04 64 bit
 
     # actually upgrade all packages that can be upgraded
     sudo apt-get -y dist-upgrade
-xxx
+xx
     # install python-dev (ask Y to Restart the services)
     sudo apt-get install -y build-essential python-dev python-setuptools libxslt1-dev libxml2-dev
 
@@ -96,7 +96,7 @@ xxx
     
     # You are sentry user (no on virtual env)
     sudo pip install psycopg2
-    
+
     # Enter to virtual env
     workon sentry_env
 
