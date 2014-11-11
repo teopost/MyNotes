@@ -27,12 +27,12 @@ Create Ubuntu image 12.04 64 bit
 
     # actually upgrade all packages that can be upgraded
     sudo apt-get -y dist-upgrade
->>
+
     # install python-dev (ask Y to Restart the services)
     sudo apt-get install -y build-essential python-dev python-setuptools libxslt1-dev libxml2-dev
 
     # install distribute
-    #sudo easy_install distribute
+    sudo easy_install distribute
 
     # use distribute to install pip
     sudo easy_install pip
@@ -58,36 +58,19 @@ Create Ubuntu image 12.04 64 bit
 
     # create settings file (file will be located in ~/.sentry/sentry.conf.py)
     sentry init
-
-sudo apt-get install -y postgresql libpq-dev postgresql-contrib
-# start postgresql
-sudo /etc/init.d/postgresql start
-sudo su - postgres
-# Enter : sentry
-createuser --superuser
-psql
-\q
-exit
-createdb -E utf8 sentry
-
-    # install postgres
-    sudo apt-get install -y postgresql postgresql-contrib libpq-dev
-
-    # install postgres adminpack
-    sudo -u postgres psql
-    CREATE EXTENSION "adminpack";
-    \q
-
-    # change postgres password & create database (change changeme with pasword)
-    sudo passwd postgres
+    
+    # Install and configure Postgresql 
+    sudo apt-get install -y postgresql libpq-dev postgresql-contrib
+    
+    # start postgresql
+    sudo /etc/init.d/postgresql start
     sudo su - postgres
-    psql -d template1 -c "ALTER USER postgres WITH PASSWORD 'changeme';"
-    createdb sentry
-    createuser sentry --pwprompt
-    psql -d template1 -U postgres
-    GRANT ALL PRIVILEGES ON DATABASE sentry to sentry;
+    createuser --superuser sentry
+    psql
+    \password sentry
     \q
     exit
+    createdb -E utf8 sentry
 
     # update config file to use postgres & host (with vim or your editor of choice)
     vi .sentry/sentry.conf.py
@@ -114,7 +97,7 @@ createdb -E utf8 sentry
     # going to need psycopg2
     workon sentry_env
     pip install psycopg2
-
+qui
     # set up databse
     sentry upgrade
 
