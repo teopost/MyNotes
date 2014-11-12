@@ -236,5 +236,6 @@ Reference
 * http://sdanielf.github.io/blog/2014/01/18/logging-with-sentry/
 * https://sentry.readthedocs.org/en/latest/quickstart/index.html
 * http://www.snip2code.com/Snippet/74753/Basic-setup-script-for-installing-Sentry
+* http://blog.mebooks.co.nz/capturing-errors-with-sentry/
 
 
