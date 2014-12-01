@@ -86,3 +86,4 @@ Others
 * http://iseetheline.ru/installing-cx-oracle-on-centos-58/
 * http://www.grupporadiofirenze.net/files/Configurazione_SVXLINK_RaspberryPi_maggio2014.pdf
 * http://dustindavis.me/setting-up-your-own-sentry-server.html
+* http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
