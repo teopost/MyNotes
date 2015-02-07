@@ -78,6 +78,14 @@ Wordpress
 * http://www.howtoforge.com/how-to-install-wordpress-on-ubuntu-14.04-lamp
 * https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-14-04
 
+EAmule on Raspberry
+---
+* http://www.mirkopagliai.it/amuled-amuleweb-e-amulegui/
+* http://maxtrixnix.blogspot.it/2013/08/raspberry-pi-come-installare-e_24.html
+* http://www.paolocampitelli.com/2013/04/17/tutorial-come-trasformare-il-raspberry-pi-in-un-muletto-media-center/
+* http://www.giardiniblog.com/server-emule/
+* http://www.qnapclub.it/viewtopic.php?f=15&t=7562
+* 
 Others
 ---
 * https://www.facebook.com/Trickonics/posts/294083367380343
