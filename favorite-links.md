@@ -21,6 +21,16 @@ Linux
 * http://www.psychocats.net/ubuntu/fixsudo
 * http://dmitrypukhov.pro/install-jenkins-on-ubuntu/
 
+Face recognition
+---
+* http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html
+* http://fideloper.com/facial-detection
+* https://gist.github.com/tfeldmann/4623850
+* http://blog.oscarliang.net/raspberry-pi-face-recognition-opencv/
+* https://realpython.com/blog/python/face-recognition-with-python/
+* http://stackoverflow.com/questions/13211745/detect-face-then-autocrop-pictures/13243712#13243712
+
+
 Raspberry
 ---
 * http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera
