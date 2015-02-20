@@ -1,6 +1,7 @@
 Markdown preview on finder
 ---
 * https://github.com/toland/qlmarkdown
+* http://blog.deversus.com/2010/12/web-developer-tip-preview-sql-files-in-mac-os-quick-look/
 
 
 VNC Connection
