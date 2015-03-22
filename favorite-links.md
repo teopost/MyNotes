@@ -107,3 +107,7 @@ Others
 * http://dustindavis.me/setting-up-your-own-sentry-server.html
 * http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
 * http://www.iwriteiam.nl/Ha_HTCABFF.html
+
+Raspperry kiosk
+---
+* http://www.jonathansblog.net/raspberry-pi-powered-presentation-display-foyer-screen
