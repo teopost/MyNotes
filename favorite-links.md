@@ -110,8 +110,8 @@ Others
 
 Raspberry MyKiosk
 ---
-http://raspberry-at-home.com/control-rpi-with-tv-remote/
-http://raspberrypi.stackexchange.com/questions/8698/how-can-my-raspberry-pi-turn-on-off-my-samsung-tv
+* http://raspberry-at-home.com/control-rpi-with-tv-remote/
+* http://raspberrypi.stackexchange.com/questions/8698/how-can-my-raspberry-pi-turn-on-off-my-samsung-tv
 
 ```bash
 # lista comandi
