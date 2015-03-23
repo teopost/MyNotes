@@ -108,6 +108,17 @@ Others
 * http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
 * http://www.iwriteiam.nl/Ha_HTCABFF.html
 
-Raspberry kiosk
+Raspberry MyKiosk
 ---
+http://raspberry-at-home.com/control-rpi-with-tv-remote/
+http://raspberrypi.stackexchange.com/questions/8698/how-can-my-raspberry-pi-turn-on-off-my-samsung-tv
+
+```bash
+# lista comandi
+echo h | cec-client -s -d 1
+
+# Attiva la posta cec come attiva
+echo "as" | cec-client -s
+````
+
 * http://www.jonathansblog.net/raspberry-pi-powered-presentation-display-foyer-screen
