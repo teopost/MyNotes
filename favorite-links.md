@@ -123,3 +123,4 @@ echo "as" | cec-client -s
 
 * http://www.jonathansblog.net/raspberry-pi-powered-presentation-display-foyer-screen
 * https://melgrubb.wordpress.com/2014/08/03/raspberry-pi-home-server-part-14-bittorrent-sync/
+* http://www.webupd8.org/2014/03/install-bittorrent-sync-gui-in-ubuntu.html
