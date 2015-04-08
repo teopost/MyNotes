@@ -30,6 +30,7 @@ Face recognition
 * http://blog.oscarliang.net/raspberry-pi-face-recognition-opencv/
 * https://realpython.com/blog/python/face-recognition-with-python/
 * http://stackoverflow.com/questions/13211745/detect-face-then-autocrop-pictures/13243712#13243712
+* http://noahingham.com/blog/facerec-python.html (good)
 
 
 Raspberry
