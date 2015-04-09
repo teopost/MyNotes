@@ -3,6 +3,9 @@ Markdown preview on finder
 * https://github.com/toland/qlmarkdown
 * http://blog.deversus.com/2010/12/web-developer-tip-preview-sql-files-in-mac-os-quick-look/
 
+Oracle
+-----
+* https://petesdbablog.wordpress.com/2013/04/06/disable-oracle-diagnostic-pack-tuning-pack/
 
 VNC Connection
 ---
