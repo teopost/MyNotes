@@ -7,6 +7,10 @@ Oracle
 -----
 * https://petesdbablog.wordpress.com/2013/04/06/disable-oracle-diagnostic-pack-tuning-pack/
 
+Github pages
+---
+* http://24ways.org/2013/get-started-with-github-pages/
+
 VNC Connection
 ---
 * http://erriko.it/sistemi-operativi/mac/scopri-il-client-vnc-gratuito-integrato-in-ogni-mac/
