@@ -10,6 +10,7 @@ Oracle
 Github pages
 ---
 * http://24ways.org/2013/get-started-with-github-pages/
+* http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/
 
 VNC Connection
 ---
