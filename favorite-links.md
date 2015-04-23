@@ -47,6 +47,7 @@ Raspberry
 * http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
 * http://www.engeene.it/la-porta-gpio-della-raspberry-pi-1/
 * https://learn.adafruit.com/webide/installation
+* https://solidmarkup.com/blog/raspberry-pi-as-sms-gateway
 
 Vagrant
 ---
