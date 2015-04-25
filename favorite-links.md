@@ -49,6 +49,8 @@ Raspberry
 * https://learn.adafruit.com/webide/installation
 * https://solidmarkup.com/blog/raspberry-pi-as-sms-gateway
 * https://bitbucket.org/niip/lovon/wiki/Home
+* http://www.instructables.com/id/WhatsApp-on-Raspberry-Pi/?ALLSTEPS
+* http://www.instructables.com/id/Telegram-on-Raspberry-Pi/
 
 Vagrant
 ---
