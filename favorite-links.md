@@ -52,6 +52,8 @@ Raspberry
 * http://www.instructables.com/id/WhatsApp-on-Raspberry-Pi/?ALLSTEPS
 * http://www.instructables.com/id/Telegram-on-Raspberry-Pi/
 * http://www.instructables.com/id/Raspberry-remote-control-with-Telegram/
+* http://raspi.tv/2014/tweeting-with-python-tweepy-on-the-raspberry-pi-part-2-pi-twitter-app-series
+* http://raspi.tv/2013/how-to-create-a-twitter-app-on-the-raspberry-pi-with-python-tweepy-part-1#install
 * 
 
 Vagrant
