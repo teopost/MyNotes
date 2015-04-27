@@ -51,6 +51,8 @@ Raspberry
 * https://bitbucket.org/niip/lovon/wiki/Home
 * http://www.instructables.com/id/WhatsApp-on-Raspberry-Pi/?ALLSTEPS
 * http://www.instructables.com/id/Telegram-on-Raspberry-Pi/
+* http://www.instructables.com/id/Raspberry-remote-control-with-Telegram/
+* 
 
 Vagrant
 ---
