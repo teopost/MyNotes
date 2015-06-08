@@ -16,6 +16,7 @@ http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html
 https://realpython.com/blog/python/face-recognition-with-python/
 https://realpython.com/blog/python/face-detection-in-python-using-a-webcam/
 
+http://code.google.com/p/opencv-lane-vehicle-track/
 
 
 # Without opencv
