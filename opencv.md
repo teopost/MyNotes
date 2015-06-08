@@ -19,6 +19,8 @@ https://realpython.com/blog/python/face-detection-in-python-using-a-webcam/
 http://code.google.com/p/opencv-lane-vehicle-track/
 http://www.pyimagesearch.com/2015/05/11/creating-a-face-detection-api-with-python-and-opencv-in-just-5-minutes/
 
+http://scikit-image.org/
+
 
 # Without opencv
 
