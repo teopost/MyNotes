@@ -24,6 +24,10 @@ Connect to MSSQL from Mac
 ---
 * http://blog.nguyenvq.com/blog/2010/04/15/accessing-ms-sql-server-from-command-line-in-mac-os-x-and-linuxunix/
 
+.net on Mac
+-----------
+* https://www.twilio.com/blog/2015/08/getting-started-with-asp-net-5-and-visual-studio-code-on-a-mac.html
+
 Linux
 ---
 * http://www.leonardoborda.com/blog/how-to-add-a-new-partition-to-the-fstab-file/
