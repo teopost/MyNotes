@@ -27,6 +27,7 @@ Connect to MSSQL from Mac
 .net on Mac
 -----------
 * https://www.twilio.com/blog/2015/08/getting-started-with-asp-net-5-and-visual-studio-code-on-a-mac.html
+* http://jameschambers.com/2015/08/converting-net-4-6-projects-to-the-vs-2015-project-system/
 
 Linux
 ---
