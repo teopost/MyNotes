@@ -130,6 +130,10 @@ Others
 * http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
 * http://www.iwriteiam.nl/Ha_HTCABFF.html
 
+Kodi
+---
+* https://github.com/Zanzibar82/plugin.video.streamondemand
+
 Raspberry MyKiosk
 ---
 * http://raspberry-at-home.com/control-rpi-with-tv-remote/
