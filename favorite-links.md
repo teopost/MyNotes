@@ -3,6 +3,11 @@ Markdown preview on finder
 * https://github.com/toland/qlmarkdown
 * http://blog.deversus.com/2010/12/web-developer-tip-preview-sql-files-in-mac-os-quick-look/
 
+Socialslides
+-----------
+* http://slidetagram.com/
+* https://gist.github.com/rubinovitz/6348163
+* 
 Oracle
 -----
 * https://petesdbablog.wordpress.com/2013/04/06/disable-oracle-diagnostic-pack-tuning-pack/
