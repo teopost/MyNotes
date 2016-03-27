@@ -25,3 +25,25 @@ e alla fine
 ````
 sudo chmod -R 777 /var/www/html/wp-content/uploads
 ````
+
+In new version of apache2 you just following command like this:
+
+```bash
+sudo vi /etc/apache2/apache2.conf
+```
+
+Add the following new line end of file:
+
+```
+ServerName localhost
+````
+
+Then restart apache2:
+
+```bash
+sudo nano service apache restart
+````
+
+It's done.
+
+
