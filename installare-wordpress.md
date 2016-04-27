@@ -59,11 +59,16 @@ Configurare
 ```
 /etc/apache2/sites-available# vi 000-default.conf 
 
-<Directory /var/www/html/wordpress>
-     Options FollowSymLinks
-     AllowOverride All
-  </Directory>
+	DocumentRoot /var/www/html/wordpress
+	ServerAdmin webmaster@localhost # dopo questo....
+	
+        RewriteEngine On
 
+        <Directory /var/www/html/wordpress>
+           Options FollowSymLinks
+           AllowOverride All
+        </Directory>
+        
 ```
 
 It's done.
