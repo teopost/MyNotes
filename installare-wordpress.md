@@ -44,6 +44,28 @@ Then restart apache2:
 sudo nano service apache restart
 ````
 
+Attivare mod_rewrite
+
+```bash
+root@raspb3-wp:/etc/apache2/mods-available# a2enmod rewrite
+Enabling module rewrite.
+To activate the new configuration, you need to run:
+service apache2 restart
+root@raspb3-wp:/etc/apache2/mods-available# service apache2 restart
+````
+
+Configurare 
+
+```
+/etc/apache2/sites-available# vi 000-default.conf 
+
+<Directory /var/www/html/wordpress>
+     Options FollowSymLinks
+     AllowOverride All
+  </Directory>
+
+```
+
 It's done.
 
 
