@@ -144,6 +144,11 @@ Raspberry MyKiosk
 * http://raspberry-at-home.com/control-rpi-with-tv-remote/
 * http://raspberrypi.stackexchange.com/questions/8698/how-can-my-raspberry-pi-turn-on-off-my-samsung-tv
 
+Varie
+---
+* http://realfavicongenerator.net/ 
+
+
 ```bash
 # lista comandi
 echo h | cec-client -s -d 1
