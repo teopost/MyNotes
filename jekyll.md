@@ -2,15 +2,14 @@ gh-pages
 ===
 * https://help.github.com/articles/using-jekyll-with-pages/
 * https://help.github.com/articles/about-custom-domains-for-github-pages-sites/
+* http://webdesign.tutsplus.com/tutorials/getting-to-know-github-pages-static-project-pages-fast--webdesign-11501
 
 
 Risorse jekyll
 ====
 
 * http://jekyllbootstrap.com/
-* http://webdesign.tutsplus.com/tutorials/getting-to-know-github-pages-static-project-pages-fast--webdesign-11501
 * https://help.github.com/articles/adding-a-cname-file-to-your-repository/
-
 * https://github.com/tomjohnson1492/documentation-theme-jekyll
 * https://mmistakes.github.io/so-simple-theme/theme-setup/
 * http://thomaslodato.info/thoughts/theme-setup/
