@@ -16,10 +16,6 @@ Risorse jekyll
 
 * http://jekyllbootstrap.com/
 * https://help.github.com/articles/adding-a-cname-file-to-your-repository/
-* https://github.com/tomjohnson1492/documentation-theme-jekyll
-* http://thomaslodato.info/thoughts/theme-setup/
-* http://kris.shaffermusic.com/   
-* https://github.com/kshaffer/kshaffer.github.io
 * https://github.com/slashdotdash/jekyll-lunr-js-search
 * http://10consulting.com/
 * http://christian.fei.ninja/Simple-Jekyll-Search/about/
@@ -37,6 +33,9 @@ Liste di temi jekyll
 
 Temi interessanti
 ---
+* https://github.com/tomjohnson1492/documentation-theme-jekyll
+* http://thomaslodato.info/thoughts/theme-setup/
+* http://kris.shaffermusic.com/  (https://github.com/kshaffer/kshaffer.github.io)
 * https://github.com/okfn/handbook-theme/
 * http://hyde.getpoole.com/
 * https://community.algolia.com/algoliasearch-jekyll-hyde/
