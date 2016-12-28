@@ -9,12 +9,12 @@ Appunti sulle pagine di github
 * https://help.github.com/articles/using-jekyll-with-pages/
 * https://help.github.com/articles/about-custom-domains-for-github-pages-sites/
 * http://webdesign.tutsplus.com/tutorials/getting-to-know-github-pages-static-project-pages-fast--webdesign-11501
-* http://rickfoosusa.blogspot.it/2011/10/howto-use-doxygen-with-github.html
-* http://dirk.net/2010/04/26/gh-pages-gh-pages-non-fast-forward-when-creating-github-project-page/
+
 
 Risorse jekyll
 ====
-
+* http://rickfoosusa.blogspot.it/2011/10/howto-use-doxygen-with-github.html
+* http://dirk.net/2010/04/26/gh-pages-gh-pages-non-fast-forward-when-creating-github-project-page/
 * http://jekyllbootstrap.com/
 * https://help.github.com/articles/adding-a-cname-file-to-your-repository/
 * https://github.com/slashdotdash/jekyll-lunr-js-search
