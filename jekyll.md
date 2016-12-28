@@ -26,6 +26,26 @@ Appunti sulle pagine di github
 4. Se voglio avere piu' siti per un utente (o organizzazione), non posso usare il publish automatico (punto 2), ma posso creare per ogni sito un branch chiamato gh-pages che verrà visto come website). In questo caso e' il file CNAME che ridirige il sito nel repo giusto.
 5. Anche senza file CNAME poso referenziale le pagine html create nel branch gh-pages usando l'url utente.github.io/repository
 
+Liste di temi jekyll
+---
+* https://drjekyllthemes.github.io/
+* http://jekyllthemes.org/
+* https://jekyllthemes.io/
+* http://themes.jekyllrc.org/
+* https://blog.webjeda.com/jekyll-themes/
+* https://github.com/CloudCannon/
+
+
+Temi interessanti
+---
+* https://github.com/okfn/handbook-theme/
+* http://hyde.getpoole.com/
+* https://github.com/alexcarpenter/material-jekyll-theme
+* https://github.com/nandomoreirame/end2end
+* https://github.com/CloudCannon/Strata-Jekyll-Theme
+* https://github.com/CloudCannon/Read-Only-Jekyll-Theme
+* https://github.com/willianjusten/will-jekyll-template
+
 E inoltre: 
 * http://rickfoosusa.blogspot.it/2011/10/howto-use-doxygen-with-github.html
 * http://dirk.net/2010/04/26/gh-pages-gh-pages-non-fast-forward-when-creating-github-project-page/
