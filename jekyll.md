@@ -9,7 +9,8 @@ Appunti sulle pagine di github
 * https://help.github.com/articles/using-jekyll-with-pages/
 * https://help.github.com/articles/about-custom-domains-for-github-pages-sites/
 * http://webdesign.tutsplus.com/tutorials/getting-to-know-github-pages-static-project-pages-fast--webdesign-11501
-
+* http://rickfoosusa.blogspot.it/2011/10/howto-use-doxygen-with-github.html
+* http://dirk.net/2010/04/26/gh-pages-gh-pages-non-fast-forward-when-creating-github-project-page/
 
 Risorse jekyll
 ====
@@ -18,11 +19,9 @@ Risorse jekyll
 * https://help.github.com/articles/adding-a-cname-file-to-your-repository/
 * https://github.com/slashdotdash/jekyll-lunr-js-search
 * http://10consulting.com/
-* http://christian.fei.ninja/Simple-Jekyll-Search/about/
-* http://ironsummitmedia.github.io/startbootstrap-sb-admin-2/pages/index.html#
 
 Liste di temi jekyll
----
+===
 * https://drjekyllthemes.github.io/
 * http://jekyllthemes.org/
 * https://jekyllthemes.io/
@@ -32,7 +31,8 @@ Liste di temi jekyll
 
 
 Temi interessanti
----
+===
+* http://christian.fei.ninja/Simple-Jekyll-Search/about/
 * https://github.com/tomjohnson1492/documentation-theme-jekyll
 * http://thomaslodato.info/thoughts/theme-setup/
 * http://kris.shaffermusic.com/  (https://github.com/kshaffer/kshaffer.github.io)
@@ -47,6 +47,3 @@ Temi interessanti
 * https://mmistakes.github.io/so-simple-theme/theme-setup/
 * http://frontendcollisionblog.com/ (https://github.com/joshbeam/joshbeam.github.io)
 
-E inoltre: 
-* http://rickfoosusa.blogspot.it/2011/10/howto-use-doxygen-with-github.html
-* http://dirk.net/2010/04/26/gh-pages-gh-pages-non-fast-forward-when-creating-github-project-page/
