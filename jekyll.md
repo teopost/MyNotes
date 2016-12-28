@@ -40,6 +40,7 @@ Temi interessanti
 ---
 * https://github.com/okfn/handbook-theme/
 * http://hyde.getpoole.com/
+* https://community.algolia.com/algoliasearch-jekyll-hyde/
 * https://github.com/alexcarpenter/material-jekyll-theme
 * https://github.com/nandomoreirame/end2end
 * https://github.com/CloudCannon/Strata-Jekyll-Theme
