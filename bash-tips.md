@@ -1,5 +1,5 @@
 Dual boot time setting (ubuntu and windows)
---
+---
         https://help.ubuntu.com/community/UbuntuTime
 
 Find in files
@@ -81,7 +81,7 @@ export HISTTIMEFORMAT="%d/%m/%y %T "
  ```
  
  Tunnel SSH
- -----------
+ ---
  
  ``` bash
  ssh -L5984:64.137.254.104:5984 user@mazinga
