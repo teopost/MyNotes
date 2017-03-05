@@ -79,3 +79,15 @@ This is my setting
 export HISTSIZE=100000
 export HISTTIMEFORMAT="%d/%m/%y %T "
  ```
+ 
+ Tunnel SSH
+ -----------
+ 
+ ``` bash
+ ssh -L5984:64.137.254.104:5984 user@mazinga
+``` 
+Remap local port 5984 for remote mazinga host on port 5984
+
+ ``` bash
+http://localhost:5984/_utils/index.html
+ ``` 
