@@ -33,7 +33,8 @@ E c'è anche una legenda dei parametri disponibili qui:
 Grazie a questi dati posso inviare una query a CKAN tipo questa:
 
 ```sql
-SELECT * from "a1c46cfe-46e5-44b4-9231-7d9260a38e68" WHERE station_id = '6000031' and reftime='2017-03-23T00:00:00'and variable_id=5
+SELECT * FROM "a1c46cfe-46e5-44b4-9231-7d9260a38e68" 
+WHERE station_id = '6000031' and reftime='2017-03-23T00:00:00'and variable_id=5
 ```
 
 Occorre sostituire con caratteri d'escape e il gioco è fatto.
