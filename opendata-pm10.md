@@ -79,6 +79,10 @@ Questo è il risultato:
 
 E cioè, il giorno 23 Marzo 2017, a Savignano sul Rubicone, i livello di PM10 rilevato era 36 (il limite consentito per legge è 50)
 
+Conclusioni
+-----------
+CKAN è una figata pazzesca. Peccato che uno strumento così utile e oltretutto opensource non sia usato da tutte le pubbliche amministrazioni, come quella in cui abito
+
 Riferimenti
 -----------
 * https://www.arpae.it/liberiamo/statistiche_riepilogative.asp?idlivello=822
