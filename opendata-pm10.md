@@ -77,7 +77,7 @@ Questo è il risultato:
 }
 ```
 
-E cioè, il giorno 23 Marzo 2017, a Savignano sul Rubicone, i livello di PM10 rilevato era 36 (il limite consentito per legge è 50)
+E cioè, il giorno 23 Marzo 2017, a Savignano sul Rubicone, i livello di PM10 rilevato era 36 µg/m3 (il limite consentito per legge è 50 µg/m3)
 
 Conclusioni
 -----------
