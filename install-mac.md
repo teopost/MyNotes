@@ -3,6 +3,8 @@
 1. Andare in /Users/teopost/Library/QuickLook
 2. Scaricare il file: 
 wget https://gist.githubusercontent.com/teopost/a6bbfc210d58f9658d210354b78dc28d/raw/43aeb0729c4855d83fd916c5f3e6138680105be4/gistfile1.html
+<script src="https://gist.github.com/teopost/a6bbfc210d58f9658d210354b78dc28d.js"></script>
+
 3. Il file scaricato rinominarlo in SQLQuickLook.qlgenerator
 4. Riavviare quicklook ```qlmanage -r```
 5. Riavviare Finder ```killall Finder```
