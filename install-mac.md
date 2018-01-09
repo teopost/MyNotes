@@ -16,8 +16,24 @@ wget https://gist.github.com/teopost/a6bbfc210d58f9658d210354b78dc28d
      <string>[additional_extension]</string>
  </array>
  ```
-
-
+ 
 # Riferimenti
 
 http://www.deversus.com/blog/2010/12/web-developer-tip-preview-sql-files-in-mac-os-quick-look/
+
+# Problemi con Hostname
+
+Verifica se è settato l'hostname
+
+```bash
+scutil --get HostName
+```
+
+Se non è disponibile HostName, vuol dire che probabilmente proviene dal DNS o dal DHCP.
+
+Imposta l'hostname con:
+
+```bash
+sudo scutil --set HostName 'yourHostName'
+```
+
