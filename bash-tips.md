@@ -79,7 +79,22 @@ This is my setting
 export HISTSIZE=100000
 export HISTTIMEFORMAT="%d/%m/%y %T "
  ```
- 
+
+Speedtest
+---
+
+Whit curl:
+
+```bash
+curl -o /dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip	
+```
+
+With wget
+
+```bash
+wget --output-document=/dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip
+```
+
 Tunnel SSH
 ---
 
