@@ -11,6 +11,8 @@ Find big files
 ``` bash
 tip1: find /path/to/search/ -type f -iname "*.mp4" -printf '%s %p\n'| sort -nr | head -10
 tip2: for i in G M K; do du -ah | grep [0-9]$i | sort -nr -k 1; done | head -n 11
+tip3: https://alvinalexander.com/linux-unix/shell-script-find-command-large-files
+
 ```
 
 
