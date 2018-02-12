@@ -5,6 +5,17 @@ Dual boot time setting (ubuntu and windows)
 https://help.ubuntu.com/community/UbuntuTime
 ```
 
+Find big files
+---
+
+``` bash
+tip1: find /path/to/search/ -type f -iname "*.mp4" -printf '%s %p\n'| sort -nr | head -10
+tip2: for i in G M K; do du -ah | grep [0-9]$i | sort -nr -k 1; done | head -n 11
+```
+
+
+
+
 Find in files
 ---
 
