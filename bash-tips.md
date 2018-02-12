@@ -12,6 +12,14 @@ Find in files
 grep -rl Cerchia ./path
 ```
 
+## Compress folder (.tgz o tar.gz)
+
+    tar -czvf archive_name.tgz folder_to_compress
+
+## Uncompress folder (.tgz o tar.gz)
+
+    tar -xvfz ./archive_name.tgz
+    
 
 Find and Replace in files
 ---
