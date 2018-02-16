@@ -7,7 +7,7 @@ wget https://gist.github.com/teopost/a6bbfc210d58f9658d210354b78dc28d
 3. Il file scaricato rinominarlo in SQLQuickLook.qlgenerator
 4. Riavviare quicklook ```qlmanage -r```
 5. Riavviare Finder ```killall Finder```
-6 Se vuoi aggiungere altre estensioni lo puoi fare nel file Info.plis in:
+6. Se vuoi aggiungere altre estensioni lo puoi fare nel file Info.plis in:
 
  ```xml
  <key>public.filename-extension</key>
