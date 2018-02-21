@@ -107,7 +107,7 @@ export HISTTIMEFORMAT="%d/%m/%y %T "
 Speedtest
 ---
 
-Whit curl:
+With curl:
 
 ```bash
 curl -o /dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip	
@@ -118,6 +118,14 @@ With wget
 ```bash
 wget --output-document=/dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip
 ```
+
+With speedtest
+
+```bash
+wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+chmod +x speedtest-cli
+```
+
 
 Tunnel SSH
 ---
