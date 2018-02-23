@@ -33,6 +33,14 @@ grep -rl Cerchia ./path
 
     tar -xvfz ./archive_name.tgz
     
+## Compress list of files (.tgz o tar.gz)
+
+    tar -czvf backup_archive.tar.gz daily_exp_FULL_PRODDB01_*
+    
+## Uncompress list of files (.tgz o tar.gz)
+
+    tar -xvfz backup_archive.tar.gz
+
 
 Find and Replace in files
 ---
