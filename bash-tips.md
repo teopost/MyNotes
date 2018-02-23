@@ -1,29 +1,13 @@
-Dual boot time setting (ubuntu and windows)
----
+# Others
+
+## Dual boot time setting (ubuntu and windows)
 
 ```
 https://help.ubuntu.com/community/UbuntuTime
 ```
 
-Find big files
----
-
-``` bash
-tip1: find /path/to/search/ -type f -iname "*.mp4" -printf '%s %p\n'| sort -nr | head -10
-tip2: for i in G M K; do du -ah | grep [0-9]$i | sort -nr -k 1; done | head -n 11
-tip3: https://alvinalexander.com/linux-unix/shell-script-find-command-large-files
-
-```
-
-
-
-
-Find in files
----
-
-``` bash
-grep -rl Cerchia ./path
-```
+# Compress and uncompress
+Some refs: https://linode.com/docs/tools-reference/tools/archiving-and-compressing-files-with-gnu-tar-and-gnu-zip/
 
 ## Compress folder (.tgz o tar.gz)
 
@@ -41,16 +25,32 @@ grep -rl Cerchia ./path
 
     tar -xvfz backup_archive.tar.gz
 
+# Find
 
-Find and Replace in files
----
+## Find big files
+
+``` bash
+tip1: find /path/to/search/ -type f -iname "*.mp4" -printf '%s %p\n'| sort -nr | head -10
+tip2: for i in G M K; do du -ah | grep [0-9]$i | sort -nr -k 1; done | head -n 11
+tip3: https://alvinalexander.com/linux-unix/shell-script-find-command-large-files
+
+```
+
+## Find in files
+
+``` bash
+grep -rl Cerchia ./path
+```
+
+## Find and Replace in files
 
 ``` bash
 find . -name "*.txt" -print0 | xargs -0 sed -i '' -e 's/foo/bar/g'
 ```
 
-Generate and copy SSH key
----
+# SSH
+
+## Generate and copy SSH key
 
 You should install ssh-copy-id with brew (brew install ssh-copy-id)
 ``` bash
@@ -59,8 +59,7 @@ ssh-keygen -t rsa
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@teopost.com
 ```
 
-Differential copy through ssh tunnel
---- 
+## Differential copy through ssh tunnel
 
 Copy all local files (subfolder included) to remote server. Thanks to http://www.linuxawy.org/node/12
 ``` bash
