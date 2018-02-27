@@ -11,6 +11,7 @@ SET FEEDBACK OFF
 SET SQLPROMPT ''
 SET HEADING OFF
 SET HEADSEP OFF
+set underline off --remove the dashes/underlines under the col headers
 SET NEWPAGE NONE
 SET VERIFY OFF
 
