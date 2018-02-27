@@ -38,3 +38,12 @@ spool RAY-BAN_Weekly_Return_Report_CH.html
 <<paste query here>>>
 ...
 ```sql
+
+
+
+Installare cx_Oracle su RHEL 6.9
+---
+1. Verify python version, oracle versione and architecture (x86/amd64)
+2. Download rpm from: https://pypi.python.org/pypi/cx_Oracle/5.3
+3. Install rpm -ivh cx_Oracle-5.3-12c-py26-2.x86_64.rpm
+
