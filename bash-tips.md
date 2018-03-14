@@ -5,6 +5,12 @@
 ```
 https://help.ubuntu.com/community/UbuntuTime
 ```
+## Create user teopost (and related group)
+
+```
+useradd -d /home/teopost -s /bin/bash  teopost
+```
+
 
 # Compress and uncompress
 Some refs: https://linode.com/docs/tools-reference/tools/archiving-and-compressing-files-with-gnu-tar-and-gnu-zip/
