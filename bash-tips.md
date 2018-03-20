@@ -31,6 +31,15 @@ Some refs: https://linode.com/docs/tools-reference/tools/archiving-and-compressi
 
     tar -xvfz backup_archive.tar.gz
 
+## Compress list of files (.tar.bz2)
+
+    tar -cjvf backup_archive.tar.gz daily_exp_FULL_PRODDB01_*
+
+## Uncompress list of files (.tar.bz2)
+
+    tar -xvjf backup_archive.tar.bz2
+    
+tar  -xvjf  daily_exp_PRODDB01_19032018_070001.tar.bz2
 # Find
 
 ## Find big files
