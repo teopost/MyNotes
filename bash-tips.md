@@ -8,7 +8,6 @@
 sleep 1000
 ^Z
 [1]+ Stopped sleep 100
-```
  # Put in background
 bg %1
 # Permit to disconnect
