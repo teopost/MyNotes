@@ -1,5 +1,24 @@
 # Others
 
+## Put command in background
+
+```
+# Press ctrl+z which will stop the process running on foreground
+# This will not send the process background by default, it just suspends it from running on foreground.
+sleep 1000
+^Z
+[1]+ Stopped sleep 100
+```
+ # Put in background
+bg %1
+# Permit to disconnect
+disown -h %1
+# list of jobs
+jobs
+```
+show this: https://www.linuxnix.com/11-fc-bg-jobs-commands-know/
+
+
 ## Dual boot time setting (ubuntu and windows)
 
 ```
