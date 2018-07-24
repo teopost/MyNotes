@@ -65,8 +65,11 @@ tar  -xvjf  daily_exp_PRODDB01_19032018_070001.tar.bz2
 ``` bash
 * find /opt  -type f -iname "*.log" -printf '%s %p\n'| sort -nr | head -10
 * for i in G M K; do du -ah | grep [0-9]$i | sort -nr -k 1; done | head -n 11
+* du -a / | sort -n -r | head -n 5
 
-tips: https://alvinalexander.com/linux-unix/shell-script-find-command-large-files
+tips: 
+* https://alvinalexander.com/linux-unix/shell-script-find-command-large-files
+* https://www.tecmint.com/find-top-large-directories-and-files-sizes-in-linux/
 
 ```
 
