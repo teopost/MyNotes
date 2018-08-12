@@ -170,6 +170,12 @@ wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/mast
 chmod +x speedtest-cli
 ```
 
+Show last
+---
+```bash
+ls  $(ls -t /u02/backupshare/prodstage/exp_dir/*.tar  | head -n1)
+```
+
 
 Tunnel SSH
 ---
