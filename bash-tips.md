@@ -12,6 +12,9 @@ telnet google.com 80
 
 # using netcat
 nc -w2 -v www.google.com 80
+
+# using nmap
+nmap -sS -O -p80,8080 www.google.com
 ```
 
 ## Put command in background
