@@ -1,5 +1,19 @@
 # Others
 
+
+## Test if remote TCP port is open
+
+```bash
+# using bash built-in feature
+timeout 2 bash -c "</dev/tcp/www.google.com/80"; echo $?
+
+# using telnet
+telnet google.com 80
+
+# using netcat
+nc -w2 -v www.google.com 80
+```
+
 ## Put command in background
 
 ```
