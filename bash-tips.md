@@ -1,3 +1,14 @@
+# Bash environment
+
+## History
+```bash
+MY_BASH_BLUE="\033[0;36m" #Cyan
+MY_BASH_NOCOLOR="\033[0m"
+
+export HISTSIZE=10000
+export HISTTIMEFORMAT=`echo -e ${MY_BASH_BLUE}[%F %T] $MY_BASH_NOCOLOR `
+```bash
+
 # Others
 
 
