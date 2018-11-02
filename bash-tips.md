@@ -95,7 +95,7 @@ tar  -xvjf  daily_exp_PRODDB01_19032018_070001.tar.bz2
 Varius: 
 * find /opt  -type f -iname "*.log" -printf '%s %p\n'| sort -nr | head -10
 * for i in G M K; do du -ah | grep [0-9]$i | sort -nr -k 1; done | head -n 11
-* du -a / | sort -n -r | head -n 5
+* du -ahx / | sort -n -r | head -n 5
 # find large files in root filesystem and exclude others
 * find / -mount -type f | xargs du | sort -r -n -k 1 | head -n 10
 
