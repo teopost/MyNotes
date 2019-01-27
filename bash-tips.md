@@ -119,6 +119,12 @@ find . -name "*.txt" -print0 | xargs -0 sed -i '' -e 's/foo/bar/g'
 grep --include={appconfig.properties} -rl 'tosearch' | xargs sed -i 's/tosearch/abc/g'
 
 ```
+## Find old files and delete
+
+```
+# old than 5 days
+find /path/to/directory/ -mtime +5 -delete
+```
 
 # SSH
 
