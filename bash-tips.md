@@ -205,6 +205,18 @@ export HISTSIZE=100000
 export HISTTIMEFORMAT="%d/%m/%y %T "
  ```
 
+Colorized
+
+``` bash
+MY_BASH_BLUE="\033[0;34m" #Blue
+MY_BASH_NOCOLOR="\033[0m"
+export HISTTIMEFORMAT=`echo -e ${MY_BASH_BLUE}[%d/%m/%y %T] $MY_BASH_NOCOLOR `
+``` 
+
+References
+
+https://www.shellhacks.com/tune-command-line-history-bash/
+
 Speedtest
 ---
 
