@@ -8,6 +8,7 @@ Free
 * https://www.seafile.com
 * http://sparkleshare.org/
 * https://pyd.io/
+* https://rclone.org/
 
 Commercial
 ---
