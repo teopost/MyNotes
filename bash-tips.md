@@ -153,6 +153,23 @@ ssh-keygen -t rsa
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@teopost.com
 ```
 
+script for putty .ppk
+```
+ssh-keygen -b 2048 -t rsa -f /tmp/sshkey -q -N ""
+puttygen keyname -o keyname.ppk
+
+Copy (for example with Winscp) private key into Windows machine.
+
+Start the program called "puttygen", select "conversion" --> "Import keys" --> "your_private_key".
+Save it somewhere in putty format.
+Note: In order to use the converted key please create new putty session and fill the following fields:
+
+"auto-login username" (username you wish to use as login) .
+"connection" --> "ssh" --> "auth" --> "browse" (here please point to your newly generated putty key)-->
+"session" --> "save".
+
+```
+
 ## Differential copy through ssh tunnel
 
 Copy all local files (subfolder included) to remote server. Thanks to http://www.linuxawy.org/node/12
