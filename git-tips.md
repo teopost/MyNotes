@@ -1,6 +1,4 @@
-# Some git tips
-
-# Move all uncommitted changes to a new branch and revert the existing branch to HEAD.
+# Move uncommitted changes to a new branch and revert the existing branch to HEAD.
 
 ```bash
 # get into the master branch
