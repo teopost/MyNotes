@@ -81,6 +81,10 @@ Some refs: https://linode.com/docs/tools-reference/tools/archiving-and-compressi
 
     tar -czvf archive_name.tgz folder_to_compress
 
+## Compress folder with AIX (.gz)
+
+    tar cf - ./folder_to_compress | gzip -9 > ./folder_to_compress.tar.gz
+
 ## Uncompress folder (.tgz o tar.gz)
 
     tar -xvfz ./archive_name.tgz
