@@ -174,6 +174,13 @@ Note: In order to use the converted key please create new putty session and fill
 
 ```
 
+## Resume scp
+
+When root@172.22.1.38:/db2archive/WCS.0.db2wcs.DBPART000.20191104145334.001 . fail, you can resume the copy with:
+```
+rsync -avP  root@172.22.1.38:/db2archive/WCS.0.db2wcs.DBPART000.20191104145334.001 .
+```
+
 ## Differential copy through ssh tunnel
 
 Copy all local files (subfolder included) to remote server. Thanks to http://www.linuxawy.org/node/12
