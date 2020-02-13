@@ -245,6 +245,12 @@ References
 
 https://www.shellhacks.com/tune-command-line-history-bash/
 
+Disk performance
+---
+```bash
+time dd if=/dev/zero of=./diskbench bs=1M count=1024 conv=fdatasync
+```
+
 Speedtest
 ---
 
