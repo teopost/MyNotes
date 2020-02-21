@@ -118,6 +118,8 @@ Varius:
 * du -ahx / | sort -n -r | head -n 5
 # find large files in root filesystem and exclude others
 * find / -mount -type f | xargs du | sort -r -n -k 1 | head -n 10
+* find / -xdev -type f -size +100M -exec ls -lah {} \; | sort -nk 5
+* find / -xdev -type f -size +100M -exec du -sh {} ';' | sort -rh | head -n50
 
 tips: 
 * https://alvinalexander.com/linux-unix/shell-script-find-command-large-files
