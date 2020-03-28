@@ -23,3 +23,20 @@ git checkout dev_branch
 git stash apply
 ````
 
+# Git pull specific folder
+
+```
+To add to this comment (particularly if you want to turn this series of commands into a script), I would amend it as follows:
+
+mkdir <dir>
+cd <dir>
+git init
+git remote add origin -f <URL>
+git config core.sparseCheckout true # enable this
+
+echo "/absolute/path/to/folder" > .git/info/sparse-checkout # if you don't start with root you are liable to download multiple folders wherever the name you specified is matched.
+
+git pull origin master
+```
+* https://github.community/t5/How-to-use-Git-and-GitHub/How-can-I-download-a-specific-folder-from-a-GitHub-repo/td-p/88#
+
