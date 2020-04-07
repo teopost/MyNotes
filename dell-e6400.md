@@ -23,7 +23,7 @@ To get Dropbox integration in Thunar:
     sudo apt-get update
     sudo apt-get install thunar-dropbox-plugin
 
-# DELL XPS
+# DELL XPS and NEON
 
 vi /usr/share/X11/xorg.conf.d/40-libinput.conf 
 
@@ -38,5 +38,3 @@ vi /usr/share/X11/xorg.conf.d/40-libinput.conf
     EndSection
 
 
-
-Edit file 
