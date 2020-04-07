@@ -1,11 +1,11 @@
-Disable wifi blink
----
+# DELL E6400
+
+## Disable wifi blink
 
     sudo echo "echo \"options iwlwifi led_mode=1\" >> /etc/modprobe.d/iwlwifi.conf" | sudo bash
 
 
-Fix dropbox icon
----
+## Fix dropbox icon
 
 from: http://askubuntu.com/questions/732816/xubuntu-dropbox-icon-fail
 
@@ -15,11 +15,28 @@ from: http://askubuntu.com/questions/732816/xubuntu-dropbox-icon-fail
 
 
 
-Dropbox thunar integration
----
+## Dropbox thunar integration
 
 To get Dropbox integration in Thunar:
 
     sudo add-apt-repository ppa:xubuntu-dev/extras
     sudo apt-get update
     sudo apt-get install thunar-dropbox-plugin
+
+# DELL XPS
+
+vi /usr/share/X11/xorg.conf.d/40-libinput.conf 
+
+    Section "InputClass"
+            Identifier "libinput touchpad catchall"
+            MatchIsTouchpad "on"
+            MatchDevicePath "/dev/input/event*"
+            Driver "libinput"
+            Option "NaturalScrolling" "true"        
+            Option "Tapping" "on"
+            Option "TappingButtonMap" "lmr"
+    EndSection
+
+
+
+Edit file 
