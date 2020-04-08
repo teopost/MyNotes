@@ -25,6 +25,15 @@ To get Dropbox integration in Thunar:
 
 # DELL XPS and NEON
 
+1. Attivare il tocco del touchpad e invertire lo scrolling
+
+Installare i pacchetti:
+
+    apt-get install network-manager-vpnc
+    apt-get install network-manager-l2tp
+    sudo apt install strongswan
+    apt install libstrongswan-extra-plugins
+    
 vi /usr/share/X11/xorg.conf.d/40-libinput.conf 
 
     Section "InputClass"
@@ -36,5 +45,33 @@ vi /usr/share/X11/xorg.conf.d/40-libinput.conf
             Option "Tapping" "on"
             Option "TappingButtonMap" "lmr"
     EndSection
+
+2. Configurare VPN L2TP/IPSEC (WEDO)
+
+C'è un problema quando ci si collega a reti Windows.
+Leggi qui: 
+* https://www.fatalerrors.org/a/vpn-error-eap-unknown-authentication-type-26-naking.html
+
+Quindi:
+
+vi /etc/ppp/options e aggiungere in fondo al file:
+
+    refuse-pap
+    refuse-eap
+    refuse-chap
+    refuse-mschap
+    require-mppe
+
+Per vedere il log:
+
+    journalctl -u NetworkManager.service -f
+
+Impostazioni IPSEC
+
+    Algorithm phase 1: aes128-sha1-modp1024,3des-sha1-modp1024!
+    Algorithm phase 2: aes128-sha1,3des-md5
+
+
+3. Configurare Cisco VPN IPSEC
 
 
