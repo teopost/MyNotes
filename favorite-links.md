@@ -1,3 +1,7 @@
+Linux tools
+---
+* https://www.loggly.com/ultimate-guide/using-journalctl/
+
 Markdown preview on finder
 ---
 * https://github.com/toland/qlmarkdown
