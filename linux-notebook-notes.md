@@ -74,4 +74,10 @@ Impostazioni IPSEC
 
 3. Configurare Cisco VPN IPSEC
 
+TODO
+
+4. Impostare Chrome come browser predefinito
+
+KDE Chrome | impostazioni di sistema > Applicazioni > Associazione dei file > text > html > Ordine di preferenza delle applicazioni (spostare Chrome in cima alla lista)
+
 
